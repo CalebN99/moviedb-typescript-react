@@ -1,0 +1,30 @@
+.movie_list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+
+.movie_card {
+    margin: 0;
+    display: inline-block;
+    width: 20em;
+    height: 22em;
+    text-align: center;
+    padding-bottom: 2em;
+    transition: all .25s ease-in;
+}
+
+.movie_card:hover {
+    cursor: pointer;
+    text-decoration: underline red;
+}
+
+.movie_card h2 {
+    color: white;
+}
+
