@@ -3,13 +3,12 @@ import "../../styles/MovieList.css";
 import ReactLoading from "react-loading";
 
 function MovieList(props: any) {
-    console.log(props)
-  if (props.data === undefined) {
+  if (props.movies === undefined) {
     return <ReactLoading type={"spin"} color="#fff" />;
   } else {
     return (
       <div className="movie_list">
-        {props.data.results.map((movie: any) => {
+        {props.movies.results.map((movie: any) => {
           return (
             <div className="movie_card" onClick={() => props.openModal()}>
               <img

@@ -3,7 +3,7 @@ import Modal from "react-modal";
 
 function MovieModal(props: any) {
     return (
-        <Modal isOpen={props.modal} onRequestClose={props.closeModal} contentLabel="Movie">
+        <Modal className="modal" isOpen={props.modal} onRequestClose={props.closeModal} contentLabel="Movie">
         <button onClick={() => props.closeModal()}>Close</button>
       </Modal>
     )

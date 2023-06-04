@@ -16,7 +16,7 @@
     height: 22em;
     text-align: center;
     padding-bottom: 2em;
-    transition: all .25s ease-in;
+    transition: all .1s ease-out;
 }
 
 .movie_card:hover {
